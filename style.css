@@ -1,0 +1,95 @@
+html, body {
+   height: 100%;
+   margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 900px;
+  background-image: url("https://www.prettyprudent.com/wp-content/uploads/2017/04/Joshua-Tree-National-Park-11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: auto;
+}
+
+.git {
+    height: 30px;
+    width: 30px;
+    margin-left: 250px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    border-color: black;
+    border: solid;
+    background-color: rgba(244, 164, 96, 0.72);
+    width: 320px;
+    text-align: center;
+}
+
+.project:hover {
+    background-color: yellow;
+}
+
+h1 {
+    margin: auto;
+    padding: 8px;
+}
+
+.rowone {
+    display: flex;
+}
+
+.ryan {
+    margin: auto;
+    height: 20px;
+}
+
+.tech {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    margin: auto;
+}
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+}
+
+.github {
+    width: 40px;
+    height: 40px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.edu {
+    text-align: center;
+}
+
+.sum {
+    text-align: center;
+}
+
+.skilldiv {
+    background-color: rgba(173, 216, 230, 0.65);
+    margin: auto;
+}
