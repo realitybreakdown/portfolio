@@ -45,7 +45,7 @@ img {
 }
 
 .project:hover {
-    background-color: yellow;
+    background-color: rgba(234, 237, 0, 0.7);
 }
 
 h1 {
