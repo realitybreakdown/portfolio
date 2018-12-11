@@ -118,6 +118,7 @@ h1 {
 
 .sum {
     text-align: center;
+    margin: auto;
 }
 
 .skilldiv {
@@ -215,7 +216,14 @@ a {
         height: 17px;
         left:323px;
         top: 424px;
-    }
-    
+    }   
+}
+
+@media screen and (max-width: 1340px) {
+    .rowone {
+       display: flex;
+       flex-wrap: nowrap;
+       margin: auto;
+    }  
 }
 
